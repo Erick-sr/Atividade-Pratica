@@ -1,12 +1,12 @@
 def media_turma():
-    total_alunos = int(input("Quantos alunos há na turma? "))
+    total_aluno = int(input("Quantos alunos há na turma? "))
     notas = []
 
-    for i in range(total_alunos):
+    for i in range(total_aluno):
         nota = float(input(f"Digite a nota do aluno {i + 1}: "))
         notas.append(nota)
 
-    media = sum(notas) / total_alunos
+    media = sum(notas) / total_aluno   
     print(f"A média da turma é: {media:.2f}")
 
 
